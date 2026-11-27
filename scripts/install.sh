@@ -3,13 +3,13 @@
 # release's SHA256SUMS, then runs `memshare install` (which copies it to ~/.local/bin and sets up the
 # coding agent).
 #
-#   curl -fsSL https://github.com/praaline/agent-memshare/releases/latest/download/install.sh | bash -s -- --machine laptop
+#   curl -fsSL https://github.com/porcupineworks/agent-memshare/releases/latest/download/install.sh | bash -s -- --machine laptop
 #
 # Options: --machine NAME (default: this computer's name), --version vX.Y.Z (default: the latest),
 # --stores-root PATH. Environment: MEMSHARE_REPO (owner/repository) to install from a fork.
 set -euo pipefail
 
-REPO="${MEMSHARE_REPO:-praaline/agent-memshare}"
+REPO="${MEMSHARE_REPO:-porcupineworks/agent-memshare}"
 VERSION="latest"
 MACHINE=""
 EXTRA=()

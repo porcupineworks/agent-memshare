@@ -36,7 +36,7 @@ secrets without a recognisable format can pass. It is a safety net, not a permis
 - Releases are built by the repository's public workflow and published with `SHA256SUMS` and signed
   build provenance. The install scripts verify the archive against `SHA256SUMS` before running
   anything; to also check that an archive was built by this repository's workflow:
-  `gh attestation verify memshare-linux-x64.tar.gz --repo praaline/agent-memshare`.
+  `gh attestation verify memshare-linux-x64.tar.gz --repo porcupineworks/agent-memshare`.
 - memshare never updates itself: a new version is installed only when you run the install script or
   `memshare install` from a newer executable.
 - It runs `git` and, for `store add`, `ssh-keygen` and `ssh-keyscan`, with arguments passed directly,

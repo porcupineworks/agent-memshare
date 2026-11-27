@@ -11,13 +11,13 @@
 Linux and macOS:
 
 ```bash
-curl -fsSL https://github.com/praaline/agent-memshare/releases/latest/download/install.sh | bash -s -- --machine laptop
+curl -fsSL https://github.com/porcupineworks/agent-memshare/releases/latest/download/install.sh | bash -s -- --machine laptop
 ```
 
 Windows (PowerShell):
 
 ```powershell
-& ([scriptblock]::Create((irm https://github.com/praaline/agent-memshare/releases/latest/download/install.ps1))) -Machine desktop
+& ([scriptblock]::Create((irm https://github.com/porcupineworks/agent-memshare/releases/latest/download/install.ps1))) -Machine desktop
 ```
 
 The machine name (lower-case letters, digits, hyphens) appears in the agent's session context. It is
