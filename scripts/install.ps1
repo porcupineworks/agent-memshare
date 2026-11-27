@@ -5,7 +5,7 @@ SHA256SUMS, runs `memshare install` (which copies it to %LOCALAPPDATA%\Programs\
 the coding agent), and adds that directory to the user's PATH.
 
 .EXAMPLE
-& ([scriptblock]::Create((irm https://github.com/praaline/agent-memshare/releases/latest/download/install.ps1))) -Machine desktop
+& ([scriptblock]::Create((irm https://github.com/porcupineworks/agent-memshare/releases/latest/download/install.ps1))) -Machine desktop
 #>
 param(
     # This machine's name (lower-case letters, digits, hyphens); default: the computer's name.
@@ -15,7 +15,7 @@ param(
     # Where stores are checked out; default: ~/agent-memshare.
     [string] $StoresRoot,
     # owner/repository to install from (a fork, for example).
-    [string] $Repo = $(if ($env:MEMSHARE_REPO) { $env:MEMSHARE_REPO } else { 'praaline/agent-memshare' })
+    [string] $Repo = $(if ($env:MEMSHARE_REPO) { $env:MEMSHARE_REPO } else { 'porcupineworks/agent-memshare' })
 )
 $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'

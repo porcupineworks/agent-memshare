@@ -51,12 +51,12 @@ run `memshare install`):
 
 ```bash
 # Linux, macOS
-curl -fsSL https://github.com/praaline/agent-memshare/releases/latest/download/install.sh | bash -s -- --machine laptop
+curl -fsSL https://github.com/porcupineworks/agent-memshare/releases/latest/download/install.sh | bash -s -- --machine laptop
 ```
 
 ```powershell
 # Windows (PowerShell)
-& ([scriptblock]::Create((irm https://github.com/praaline/agent-memshare/releases/latest/download/install.ps1))) -Machine desktop
+& ([scriptblock]::Create((irm https://github.com/porcupineworks/agent-memshare/releases/latest/download/install.ps1))) -Machine desktop
 ```
 
 Create an empty **private** repository for your store on your Git host, then:

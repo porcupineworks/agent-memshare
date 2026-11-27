@@ -5,6 +5,10 @@ All notable changes are listed here. Versions follow [Semantic Versioning](https
 
 ## Unreleased
 
+- The repository moved to `porcupineworks/agent-memshare`. The install scripts download from it,
+  and release archives are attested under that name (`gh attestation verify <archive> --repo
+  porcupineworks/agent-memshare`); the attestations of 0.1.0 and 0.1.1 still name the old one.
+  The old addresses redirect.
 - `memshare install` suggests `memshare store add` only when the machine has no store yet (not
   after every update).
 

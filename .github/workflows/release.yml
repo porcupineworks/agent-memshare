@@ -1,7 +1,7 @@
 # Release: on a version tag (v1.2.3), builds the Native AOT executable on each platform (Native AOT
 # can't build for another OS), packages it with the licence and README, and publishes a GitHub
 # release with the archives, the install scripts, their SHA256SUMS and signed build provenance
-# (verify with `gh attestation verify <archive> --repo praaline/agent-memshare`). GitHub only: it
+# (verify with `gh attestation verify <archive> --repo porcupineworks/agent-memshare`). GitHub only: it
 # needs Windows and macOS runners.
 name: release
 
